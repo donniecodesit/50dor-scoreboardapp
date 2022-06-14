@@ -3,31 +3,35 @@ import React, { Component } from "react";
 class AddPlayerForm extends Component {
   state = {
     value: "",
-    badName: false,
+    badName: "",
   };
 
   handleChange = (event) => {
     this.setState({
       value: event.target.value,
-      badName: false,
+      badName: "",
     });
   };
 
   handleSubmit = (event) => {
     event.preventDefault();
-    if (
-      this.state.value === "" ||
-      this.state.value.split("").every((char) => char === " ")
-    ) {
+    if (this.state.value === "" || this.state.value.split("").every((char) => char === " ")) {
       this.setState({
         value: "",
-        badName: true,
+        badName: "Name cannot be empty.",
       });
-    } else {
+    } 
+    else if (this.state.value.length > 12) {
+        this.setState({
+            value: this.state.value,
+            badName: "Name should be 12 chars or less.",
+        });
+    }
+    else {
       this.props.addPlayer(this.state.value);
       this.setState({
         value: "",
-        badName: false,
+        badName: "",
       });
     }
   };
@@ -44,7 +48,7 @@ class AddPlayerForm extends Component {
           />
           <input type="submit" value="Add Player" />
         </form>
-        {this.state.badName && <p className="badName">Name cannot be empty.</p>}
+        {this.state.badName && <p className="badName">{this.state.badName}</p>}
       </>
     );
   }
