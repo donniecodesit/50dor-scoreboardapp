@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scoreboardapp/static/css/main.b8855c0e.css",
+    "main.js": "/scoreboardapp/static/js/main.ce33483e.js",
+    "index.html": "/scoreboardapp/index.html",
+    "main.b8855c0e.css.map": "/scoreboardapp/static/css/main.b8855c0e.css.map",
+    "main.ce33483e.js.map": "/scoreboardapp/static/js/main.ce33483e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8855c0e.css",
+    "static/js/main.ce33483e.js"
+  ]
+}
