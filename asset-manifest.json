@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/scoreboardapp/static/css/main.b8855c0e.css",
-    "main.js": "/scoreboardapp/static/js/main.ce33483e.js",
+    "main.css": "/scoreboardapp/static/css/main.59a38637.css",
+    "main.js": "/scoreboardapp/static/js/main.2d940a1d.js",
     "index.html": "/scoreboardapp/index.html",
-    "main.b8855c0e.css.map": "/scoreboardapp/static/css/main.b8855c0e.css.map",
-    "main.ce33483e.js.map": "/scoreboardapp/static/js/main.ce33483e.js.map"
+    "main.59a38637.css.map": "/scoreboardapp/static/css/main.59a38637.css.map",
+    "main.2d940a1d.js.map": "/scoreboardapp/static/js/main.2d940a1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8855c0e.css",
-    "static/js/main.ce33483e.js"
+    "static/css/main.59a38637.css",
+    "static/js/main.2d940a1d.js"
   ]
 }
