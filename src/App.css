@@ -229,6 +229,14 @@ svg {
   fill: #1a1a1a;
 }
 
+.badName {
+  background-color: #aa0000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 @keyframes grow {
   50% {
     transform: scale(1.4) rotate(-3deg);

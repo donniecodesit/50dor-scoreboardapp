@@ -52,6 +52,7 @@ class StopWatch extends Component {
         <button onClick={this.handleStopWatch}>
           {this.state.isRunning ? "Stop" : "Start"}
         </button>
+        <button onClick={this.handleReset}>Reset</button>
       </div>
     );
   }
