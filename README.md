@@ -1,5 +1,5 @@
-## About This App 
-This is a React Scoreboard Application built with React during Day 23 of a 50 Days of React Udemy Course.
+## About This App
+React project made during Day 23 of "50 Days of React" by Sufa Digital Media on Udemy.
 This application allows you to run a timer and manage scores for mock players, and you are able to manage the players as well.
 
 ## How To Install & Run
