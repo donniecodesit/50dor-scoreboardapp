@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/scoreboardapp/static/css/main.59a38637.css",
-    "main.js": "/scoreboardapp/static/js/main.2d940a1d.js",
-    "index.html": "/scoreboardapp/index.html",
-    "main.59a38637.css.map": "/scoreboardapp/static/css/main.59a38637.css.map",
-    "main.2d940a1d.js.map": "/scoreboardapp/static/js/main.2d940a1d.js.map"
+    "main.css": "/50dor-scoreboardapp/static/css/main.59a38637.css",
+    "main.js": "/50dor-scoreboardapp/static/js/main.2d940a1d.js",
+    "index.html": "/50dor-scoreboardapp/index.html",
+    "main.59a38637.css.map": "/50dor-scoreboardapp/static/css/main.59a38637.css.map",
+    "main.2d940a1d.js.map": "/50dor-scoreboardapp/static/js/main.2d940a1d.js.map"
   },
   "entrypoints": [
     "static/css/main.59a38637.css",
